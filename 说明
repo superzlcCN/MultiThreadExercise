@@ -1,0 +1,7 @@
+本工程用于多线程编程的练习用，来源于 http://blog.csdn.net/kkkloveyou/article/details/6724083
+
+basic包:最基本的多线程例子，PrintTask继承runnable，Main函数中直接Thread初始化，run
+
+executor包:将新建的线程交至线程池executorService进行管理
+
+sync包：协调多个线程对共享数据的访问
